@@ -1,8 +1,8 @@
 #include "gtest/gtest.h"
 
 #include "task1.h"
-#include "Circle.h"
-#include "DateTime.h"
+#include "circle.h"
+#include "datetime.h"
 #include <string>
 	
 TEST(circle,circle_get_area1)
