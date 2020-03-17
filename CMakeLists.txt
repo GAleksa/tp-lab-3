@@ -18,10 +18,10 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/Circle.cpp
+set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/circle.cpp
                ${PROJECT_SOURCE_DIR}/src/task1.cpp)
                
-set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/DateTime.cpp)
+set(SRC_FILES3 ${PROJECT_SOURCE_DIR}/src/datetime.cpp)
 
 
 set(CMAKE_CXX_STANDARD 11)
